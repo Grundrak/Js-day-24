@@ -47,9 +47,7 @@ async function research() {
     }
     
     if (!cityfounded) {
-      console.log(`City "${city}" not found.`);
-    }
-    
+      console.log(`City "${city}" not found.`);}
     rl.close();
   });
 }
